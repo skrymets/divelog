@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <TextView
+        android:id="@+id/diveRecordNumber"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:autoSizeTextType="none"
+        android:contentDescription="@string/app_name"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingTop ="13dip"
+        android:text="#999"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#706f6f"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/diveSiteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/diveRecordNumber"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom ="5dip"
+        android:paddingLeft ="3dip"
+        android:paddingTop="5dp"
+        android:text="Divesite Name"
+        android:textAllCaps="true"
+        android:textColor="#706f6f"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diveRecordSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/diveSiteName"
+        android:layout_alignStart="@+id/diveSiteName"
+        android:layout_below="@+id/diveSiteName"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingLeft ="3dip"
+        android:text="Quick Record Details"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dive Records</string>
+    <string name="action_settings">Settings</string>
+    <string name="dive_site_name">Divesite Name</string>
+    <string name="desc_ds_related_media">A divesite related media</string>
+</resources>
